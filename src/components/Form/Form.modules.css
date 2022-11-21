@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  margin: 3rem auto;
+  box-shadow: rgba(0, 0, 0, 0.6);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 150vh;
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
