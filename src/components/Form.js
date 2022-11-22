@@ -146,11 +146,6 @@ export default function Form1() {
           <button disabled={!formIsvalid}>Submit</button>
         </div>
       </form>
-      <BrowserRouter>
-        <Routes>
-          <Route path="form2" element={<Form2 />}></Route>
-        </Routes>
-      </BrowserRouter>
     </section>
   );
 }

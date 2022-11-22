@@ -4,6 +4,9 @@ const Content = (props) => {
   return (
     <div className="container-info">
       <h2>{props.heading}</h2>
+      <div className="Image">
+        <img src={props.image} alt="" />
+      </div>
       <p>{props.description}</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iure
@@ -11,9 +14,6 @@ const Content = (props) => {
         sed. Voluptas, exercitationem labore. Quidem accusamus quia mollitia
         blanditiis. Deleniti, quis!
       </p>
-      <div className="Image">
-        <img src={props.image} alt="" />
-      </div>
     </div>
   );
 };

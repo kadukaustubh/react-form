@@ -5,8 +5,8 @@ import FormAdvance from "./components/Form/FormAdvance.js";
 function App() {
   return (
     <div className="App">
-      <Form />
-      {/* <FormAdvance /> */}
+      {/* <Form /> */}
+      <FormAdvance />
     </div>
   );
 }
